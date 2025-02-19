@@ -1,0 +1,28 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-lato: var(--font-lato);
+  --font-poppins: var(--font-poppins);
+}
+
+body {
+  font-family: var(--font-lato);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins);
+}
+
+/* Bootstrap styles */
+@import '../css/bootstrap.min.css';
+
+/* Custom styles */
+@import '../css/style.css';
+@import '../css/animate.css';
+@import '../css/owl.carousel.min.css';
+@import '../css/owl.theme.default.min.css';
+@import '../css/magnific-popup.css';
+@import '../css/flaticon.css';

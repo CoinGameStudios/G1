@@ -15,6 +15,7 @@ export default function Navbar() {
         
         <button 
           className="navbar-toggler" 
+          type="button"
           onClick={() => setIsOpen(!isOpen)}
         >
           <span className="fa fa-bars"></span> Menu
@@ -26,7 +27,7 @@ export default function Navbar() {
               <Link href="/" className="nav-link">Home</Link>
             </li>
             <li className="nav-item">
-              <Link href="/about" className="nav-link">About us</Link>
+              <Link href="/about" className="nav-link">About</Link>
             </li>
             <li className="nav-item">
               <Link href="/services" className="nav-link">Services</Link>
